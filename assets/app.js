@@ -6,7 +6,11 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
-import './styles/app.css';
+// use this with "composer require bootswatch" => import '../vendor/thomaspark/bootswatch/dist/sandstone/bootstrap.min.css';
+import "../node_modules/bootswatch/dist/yeti/bootstrap.min.css";
+import './styles/_variables.scss';
+import './styles/_miscellaneous.scss';
+import './styles/app.scss'; 
 
 // start the Stimulus application
 import './bootstrap';
